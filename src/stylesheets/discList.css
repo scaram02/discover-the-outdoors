@@ -1,0 +1,37 @@
+h2 {
+    /*  0 or 50 margin? hmmm */
+    margin: 0px;
+    padding: 50px;
+    height: 150px;
+    max-width: 100%;
+    /* height: 15vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: 0vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* take out last 2px to make not blurry? idk */
+    text-shadow: 2px 2px 2px white; 
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: darkslategray;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* a:hover{
+  opacity: 0.5;
+} */
+
+/* add some hover! maybe transparency */
+/* I think bc h2 and img are one, you can't make the image transparent without also the text */
+
+
+/* bg transparency: https://css-tricks.com/snippets/css/transparent-background-images/ */
+
+
+/* if everything goes wrong just have this */

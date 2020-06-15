@@ -1,25 +1,56 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './components/Home'
+import About from './components/About'
+// import {posts as DiscoverList} from './components/DiscoverList'
+import DiscoverList from './components/DiscoverList'
+import Nav from './components/Nav'
+import DiscoverDetails from './components/DiscoverDetails'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <BrowserRouter>
+    <Nav />
+    <div>
+      <Switch>
+        <Route exact path="/">
+     <Home />
+     </Route>
+
+     <Route path='/about'>
+     <About />
+     </Route>
+
+     {/* <Route 
+     exact path='/discover'>
+    <DiscoverList />
+     </Route> */}
+  
+  <Route 
+    exact path='/discover'
+    component={DiscoverList}
+    >
+    </Route>
+    
+
+    <Route 
+    exact path='/discover/:topic'
+    component={DiscoverDetails}
+    >
+    </Route>
+
+
+     </Switch>
     </div>
+   
+  </BrowserRouter>
   );
 }
 

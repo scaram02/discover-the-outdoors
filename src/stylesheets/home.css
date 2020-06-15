@@ -1,0 +1,44 @@
+.cover {
+    background-image: url('../images/home2.jpg');
+    height: 60vh;
+    max-width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.cover h1 {
+    font-size: 6vh;
+}
+
+
+ul.topnav {
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+color: white;
+}
+
+ul.topnav li{
+    float: left;
+    list-style-type: none;
+}
+
+ul.topnav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+  }
