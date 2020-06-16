@@ -1,3 +1,36 @@
-/* img {
-    height: 150px;
-} */
+/* flex that display */
+.container {
+    /* display: flex;
+    flex-direction: row; */
+}
+
+
+.portrait{
+    width: 40%;
+    float: left;
+}
+ 
+.portrait img{
+    
+    width: 100%;
+    /* height: 300px; */
+    /* position: absolute; */
+} 
+
+
+.info{
+    width: 60%;
+    float: left;
+    text-align: center;
+  
+
+}
+/* the portrait might be a problem. make sure all portraits on each page generally same width, maybe. or no? */
+
+
+@media screen and (max-width: 800px){
+    .portrait, .info {
+        width: 100%;
+    }
+  }
+

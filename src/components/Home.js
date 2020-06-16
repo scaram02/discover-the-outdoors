@@ -12,3 +12,8 @@ export default class Home extends Component {
         )
     }
 }
+
+
+// if not included somewhere else, could add pages like Activities: camping, hiking, canoeing etc.
+
+// access location to find nearest xyz? 
