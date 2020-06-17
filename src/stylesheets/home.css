@@ -38,8 +38,8 @@ ul.topnav li a{
     
 }
 
-ul.topnav li a:active, a:hover{
-    background-color: darkslategray
+ul.topnav li a:active, li a:hover{
+    background-color: #57756c
 }
 
 @media screen and (max-width: 600px){

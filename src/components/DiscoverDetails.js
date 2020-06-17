@@ -23,7 +23,7 @@ return (
     <div className="portrait">
             {/* style={{backgroundImage: `url(${foundDisc.portrait})`}}  as part of the div */}
     <img src={`${foundDisc.portrait}`} alt={foundDisc.topic}/>
-    <p>jkghj</p>
+
     </div>
     <div className="info" >   
     <h1>{foundDisc.title}</h1>

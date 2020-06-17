@@ -5,7 +5,7 @@ export default class Home extends Component {
     render() {
         return (
             <div>
-                <div class="cover">
+                <div className="cover">
                 <h1>Discover the Outdoors</h1>
                 </div>
             </div>
