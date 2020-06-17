@@ -35,14 +35,3 @@ export default class DiscoverList extends Component {
 
 
 
-
-// if everything goes wrong just move the style back to the h2
-
-
-
-// between the div
-{/* <h2 style={{backgroundImage: `url(${post.img})`}}>
-<Link to={`/discover/${post.topic}`}>
-    {post.title}
-    </Link> 
-</h2>  */}
