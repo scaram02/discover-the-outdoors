@@ -17,7 +17,7 @@ export default class DiscoverList extends Component {
 
     render() {
         return (
-            <div>
+            <div style={{height: "100%", marginTop: "45px"}}>
                 {posts.map((post) => 
                 <div key={post.topic} className="discList">
                   <Link to={`/discover/${post.topic}`}>

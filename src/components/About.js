@@ -12,7 +12,8 @@ export default class About extends Component {
         return (
             <div className="trisection-container">
                <div className="section-one">
-                <p>After recently spending a lot of time sitting outside, I thought, why not make a fan website for the Great Outdoors? Let's show this nature thing some appreciation. Thus began my latest side project, a sample site to bring the outdoors to you, and you to the outdoors. Feel free to look around. You can definitely find something you like.</p>
+                <p>After recently spending a lot of time sitting outside, I thought, why not make a fan website for the Great Outdoors? Let's show this nature thing some appreciation. Thus began my latest side project, a sample site to bring the outdoors to you, and you to the outdoors. This site was built using React and is the result of what was initially a challenge to myself to build something responsive—made both for desktop and mobile devices. Feel free to provide feedback!<br/>
+                Have a look around. You can definitely find something you like.</p>
                 </div> 
                 <div className="section-two">
                  <h2>Adventure is out there!</h2>

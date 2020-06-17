@@ -1,6 +1,6 @@
 .discList h2 {
     /*  0 or 50 margin? hmmm */
-    margin: 0px;
+    margin: 0px;   
     padding: 50px;
     height: 150px;
     max-width: 100%;
@@ -13,6 +13,7 @@
     background-repeat: no-repeat;
     /* take out last 2px to make not blurry? idk */
     text-shadow: 2px 2px 2px white; 
+
 }
 
 a, a:visited {
@@ -28,10 +29,7 @@ a, a:visited {
 } */
 
 /* add some hover! maybe transparency */
-/* I think bc h2 and img are one, you can't make the image transparent without also the text */
 
+/* fix top el so not cut off by nav */
+/* at least on mobile/small scrns */
 
-/* bg transparency: https://css-tricks.com/snippets/css/transparent-background-images/ */
-
-
-/* if everything goes wrong just have this */

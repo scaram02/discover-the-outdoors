@@ -1,0 +1,100 @@
+.top-menu {
+    background-color: #333;
+    color: white;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+
+  .top-menu > .topnav {
+    float: left;
+}
+
+.top-menu *:hover{
+    cursor: pointer;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.top-menu .icon {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+ul.topnav {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    }
+
+ul.topnav li{
+    float: left;
+    list-style-type: none;
+}
+
+ul.topnav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+ul.topnav li a:active, li a:hover{
+    background-color: #57756c
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .top-menu {
+        padding: 40px 20px 20px 20px;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+   .topnav {
+        display: none;
+    }
+
+    .icon {
+        display: block !important;
+    }
+    
+    .top-menu.toggled {
+        padding: 60px 0 0 0;
+        max-height: 1500px;
+        transition: max-height 1s;
+    }
+
+    .top-menu.toggled > .topnav {
+        margin: 15px 0 0 0 ;
+    }
+
+
+    /* target more here? */
+    .top-menu.toggled *:not(.icon) {
+        float: none;
+        display: block !important;
+        text-align: left;
+        margin: 0;
+    }
+
+}
+
+/* https://objekt.click/2018/05/react-create-responsive-navbar/ */
