@@ -37,7 +37,9 @@ class Nav extends Component {
       }
     }
   
-    setToggleTopMenuClass = () => {
+
+    // set the class, not boolean bc important for css
+    setNavToggle = () => {
       if (this.state.menu_class === '') {
         this.setState({
           menu_class: 'toggled',
@@ -48,6 +50,13 @@ class Nav extends Component {
         })
       }
     }
+
+// closes when you click link to new page
+    closeNavbar = () => {
+        this.setState({
+            menu_class: ""
+        })
+    }
   
   
     render = () => {
@@ -55,22 +64,32 @@ class Nav extends Component {
       return (
           <div>
             <div className={top_menu_class} >
-             {/* <p className="top-menu-lead">DISCOVER</p> */}
               <div>
               <ul className="topnav">
                   <li>
-                      <Link to='/'>Home</Link>  
+                      <Link 
+                      to='/'
+                      onClick={this.closeNavbar}
+                      >Home</Link>  
                   </li>
                   <li>
-                <Link to='/about'>About</Link>
+                <Link to='/about'
+                onClick={this.closeNavbar}
+                >About</Link>
                   </li> 
                 
                  <li>
-                <Link to='/discover'>Discover</Link>
+                <Link to='/discover'
+                onClick={this.closeNavbar}>Discover</Link>
+                </li>
+
+                <li>
+                <Link to='/map'
+                onClick={this.closeNavbar}>Map</Link>
                 </li>
                 </ul>
               </div>
-                    <p className="icon" onClick={this.setToggleTopMenuClass}>icon here</p>             
+                    <p className="icon" onClick={this.setNavToggle}>icon here</p>             
                      <div className='clear-fix' />
             </div>
           </div>

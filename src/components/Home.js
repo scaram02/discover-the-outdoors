@@ -21,3 +21,5 @@ export default class Home extends Component {
 // should def add state so click a pic, something happens, or show appreciation somehow...like button?
 
 // could make a Get Involved iwth some climate change facts and sustainabiliity incentives
+
+// there was somehting about if you have blank space at bottom it fills in with a color??

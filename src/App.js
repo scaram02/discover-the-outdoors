@@ -12,6 +12,7 @@ import About from './components/About'
 import DiscoverList from './components/DiscoverList'
 import Nav from './components/Nav'
 import DiscoverDetails from './components/DiscoverDetails'
+import Map from'./components/Map'
 
 
 function App() {
@@ -43,6 +44,12 @@ function App() {
     <Route 
     exact path='/discover/:topic'
     component={DiscoverDetails}
+    >
+    </Route>
+
+    <Route 
+    exact path='/map'
+    component={Map}
     >
     </Route>
 
