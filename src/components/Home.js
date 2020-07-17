@@ -8,6 +8,23 @@ export default class Home extends Component {
                 <div className="cover">
                 <h1>Discover the Outdoors</h1>
                 </div>
+
+                <div className="quote">
+                <h1>"The mountains are calling and I must go"</h1>
+                </div>
+
+
+                <div className="tri-container">
+                    <div className="tri-one">
+                        <h1>About</h1>
+                    </div>
+                    <div className="tri-two">
+                        <h1>Coming soon</h1>
+                    </div>
+                    <div className="tri-three">
+                        <h1>Moose</h1>
+                    </div>
+                </div>
             </div>
         )
     }

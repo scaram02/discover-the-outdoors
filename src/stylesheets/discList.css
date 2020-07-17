@@ -16,7 +16,7 @@
 
 }
 
-a, a:visited {
+a:not(.linkedin), a:visited {
     text-decoration: none;
     color: darkslategray;
     display: block;

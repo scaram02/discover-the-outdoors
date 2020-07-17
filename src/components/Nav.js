@@ -3,31 +3,6 @@ import { Link } from "react-router-dom";
 // import '../stylesheets/home.css'
 import '../stylesheets/nav.css'
 
-// export default class Nav extends Component {
-//     render() {
-//         return (
-//             <div>
-//                 <nav>
-//                 <ul className="topnav">
-//                   <li>
-//                       <Link to='/'>Home</Link>  
-//                   </li>
-//                   <li>
-//                 <Link to='/about'>About</Link>
-//                   </li> 
-                
-//                  <li>
-//                 <Link to='/discover'>Discover</Link>
-//                 </li>
-//                 </ul>
-//                 </nav>
-//             </div>
-//         )
-//     }
-// }
-
-
-
 class Nav extends Component {
 
     constructor(props) {
@@ -89,7 +64,7 @@ class Nav extends Component {
                 </li>
                 </ul>
               </div>
-                    <p className="icon" onClick={this.setNavToggle}>icon here</p>             
+                    <p className="icon" onClick={this.setNavToggle}>icon hereeeeee</p>             
                      <div className='clear-fix' />
             </div>
           </div>

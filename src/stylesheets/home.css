@@ -1,4 +1,4 @@
-.cover {
+/* .cover {
     background-image: url('../images/home7.jpeg');
     height: 65vh;
     max-width: 100%;
@@ -13,42 +13,37 @@
 
 .cover h1 {
     font-size: 6vh;
-}
+} */
 
-/* 
-ul.topnav {
-margin: 0;
-padding: 0;
-overflow: hidden;
-background-color: #333;
-color: white;
-position: fixed;
-top: 0;
-width: 100%;
-}
-
-ul.topnav li{
-    float: left;
-    list-style-type: none;
-}
-
-ul.topnav li a{
-    display: block;
+.cover {
+    background-image: url('../images/home7.jpeg');
+    height: 100vh;
+    max-width: 100%;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
+    background-position: center;
+    background-size: cover;
 }
 
-ul.topnav li a:active, li a:hover{
-    background-color: #57756c
+.cover h1 {
+    font-size: 6vh;
 }
 
-@media screen and (max-width: 600px){
-    ul.topnav li.right,
-    ul.topnav li {float: none;}
-  } */
 
+.quote {
+    height: 330px;
+    background-color: #d2d4d2;
+    text-align: center;
+    margin: auto;
+}
 
- 
+.tri-container h1{
+    float: left;
+}
+/* 
+.tri-one{
+    background-image: 
+} */

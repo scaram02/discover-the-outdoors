@@ -4,7 +4,7 @@
 
 .section-one {
   /* change this color I think */
-  background-color: #c7d1cb;
+  background-color: #d2d4d2;
   height: 350px;
   margin: 0cm;
   padding: 0cm;
@@ -19,7 +19,6 @@
   text-align: justify;
   justify-content: center;
   justify-items: center;
-  /* border: 1px solid red; */
   padding-top: 6vh;
   padding-left: 8vh;
   padding-right: 8vh;
@@ -35,34 +34,80 @@
   width: 100%;
   color: white;
   text-align: center;
-  padding: 139px 0px 139px 0px
+  padding: 119px 0px 119px 0px
 /* padding should be minus the font size, no? */
 }
 
 .section-two h2{
-    font-size: 36px;
+    font-size: 56px;
 }
+
+
+/* could make sticky? */
 
 .section-three {
   float: left;
   clear: none;
   width: 100%;
+  background-color: #d2d4d2;
+  font-size: larger;
+  color: #333;
 }
 
-/* could make sticky? */
+.section-three p{
+  padding-top: 6vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
+}
+
+.section-three ul{
+margin-top: 60px;
+padding-left: 120px;
+}
+
+.section-three li{
+  margin: 10px 0px 10px 0px;
+}
+
+.post-list{
+  padding-top: 0px;
+  padding-bottom: 40px;
+  margin-top: 0px;
+  font-weight: 600;
+}
+
+.post-list a{
+  text-decoration: none;
+}
+
 
 
 @media screen and (max-width: 600px) {
   .section-one {
     margin-top: 400x;
 
-    /* ???? */
-    /* height: 500px; */
   }
 
   .section-one p {
     margin: 25px;
     font-size: 15.5px;
     padding: 2vh;
+  }
+
+  .section-two h2{
+    font-size: 30px;
+  }
+
+  .section-three p{
+    font-size: 15.5px;
+    /* margin: 0px; */
+    padding: 40px
+  }
+
+  .section-three ul{
+    font-size: 15.5px;
+    margin: 0px;
+    padding-left: 70px;
+    padding-right: 40px
   }
 }

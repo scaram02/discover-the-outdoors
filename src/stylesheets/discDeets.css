@@ -1,7 +1,8 @@
 /* flex that display */
 .container {
-    /* display: flex;
-    flex-direction: row; */
+  height: 900px;
+  background-color:	white
+
 }
 
 .portrait{
@@ -12,7 +13,7 @@
 .portrait img{
     
     width: 100%;
-    /* height: 300px; */
+    height: 750px;
     /* position: absolute; */
 } 
 
@@ -20,11 +21,16 @@
     width: 60%;
     float: left;
     text-align: center;
+    background-color: white;
+
 }
 
 .info h1 {
     padding: 25px 0px 25px 0px;
     color: darkslategray;
+    margin-top: 2em;
+    padding-top: 1em;
+    font-size: 36px;
     
 }
 
@@ -34,14 +40,20 @@
     margin: 0px 25px 0px 25px;
 }
 
-.info p{
-    margin: 1em;
-    padding: 1em;
+.info p, .info a{
+    margin: 1em 2em 1em 2em;
+    padding: 2em;
     max-width: 100%;
     align-items: center;
+    font-size: 18x;
     color: #333;
-    /* not sure about padding or margin */
 }
+
+.info a{
+   color: darkslategray;
+   padding: 0px;
+}
+
 
 
 /* mmm make img size a bit smaller here */
@@ -50,9 +62,22 @@
         width: 100%;
     }
     .portrait img {
-        width: 100%;
-        height: 350px;
+        /* width: 375px; */
+        height: 450px;
+
         /* max-height: 80%; */
+    }
+
+    .info h1{
+        margin: 20px 0px;
+        padding: 15px 0px;
+        font-size: 32px;
+    }
+
+    
+    .info p, .info a{
+        margin: 16px 0px;
+        padding: 15px 30px;
     }
   }
 
