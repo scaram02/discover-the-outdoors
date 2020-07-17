@@ -4,13 +4,19 @@ import '../stylesheets/home.css'
 export default class Home extends Component {
     render() {
         return (
-            <div>
+            <div className="home-contain">
                 <div className="cover">
                 <h1>Discover the Outdoors</h1>
                 </div>
 
                 <div className="quote">
                 <h1>"The mountains are calling and I must go"</h1>
+                <br/>
+                <h2>–John Muir</h2>
+                <p>Get inspired, get outside. Discover the world using all five senses. Find your best outdoor moments, discover all the nature has to offer. Discover yourself. 
+                    <br/><strong>Discover the outdoors.</strong>
+                    
+                    </p>
                 </div>
 
 

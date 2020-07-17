@@ -15,6 +15,10 @@
     font-size: 6vh;
 } */
 
+.home-contain{
+    background-color: #d2d4d2;
+}
+
 .cover {
     background-image: url('../images/home7.jpeg');
     height: 100vh;
@@ -34,11 +38,43 @@
 
 
 .quote {
-    height: 330px;
-    background-color: #d2d4d2;
+    background-color: #dfdae8;
+    /* background-color: #cdcbd1; */
     text-align: center;
+    align-items: center;
     margin: auto;
+    font-style: italic;
+    padding-top: 60px;
+    padding-bottom: 80px;
+   
 }
+
+.quote h1{
+    font-size: 2.5rem;
+    text-shadow: 1px 1px darkgray;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    color: #57756c;
+}
+
+.quote h2{
+    font-size: 1.2rem;
+    color: #57756c;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.quote p{
+    color: #333;
+    font-size: 20px;
+     line-height: 25px;
+    /* padding-top: 30px; */
+}
+
+.quote br{
+    font-weight: bold;
+}
+
 
 .tri-container h1{
     float: left;
