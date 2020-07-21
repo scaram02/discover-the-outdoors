@@ -64,7 +64,7 @@ class Nav extends Component {
                 </li>
                 </ul>
               </div>
-                    <p className="icon" onClick={this.setNavToggle}>icon hereeeeee</p>             
+                    <p className="icon" onClick={this.setNavToggle}>Menu</p>             
                      <div className='clear-fix' />
             </div>
           </div>

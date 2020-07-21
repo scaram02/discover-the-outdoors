@@ -25,16 +25,18 @@ export default class Home extends Component {
                         <h1>About</h1>
                     </div>
                     <div className="tri-two">
-                        <h1>Coming soon</h1>
+                        <h1>Moose</h1>
                     </div>
                     <div className="tri-three">
-                        <h1>Moose</h1>
+                        <h1>Discover</h1>
                     </div>
                 </div>
             </div>
         )
     }
 }
+
+
 
 
 // if not included somewhere else, could add pages like Activities: camping, hiking, canoeing etc.

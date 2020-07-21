@@ -76,10 +76,107 @@
 }
 
 
-.tri-container h1{
-    float: left;
+.tri-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #dfdae8;
 }
-/* 
+
+.tri-one, .tri-two, .tri-three{
+    /* width: 200px; */
+    margin: 0px;
+    padding: 0px;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
 .tri-one{
-    background-image: 
-} */
+    background-image: url('../images/farm.jpg');
+    background-position: bottom;
+    background-size: 45rem;
+}
+
+.tri-two{
+    background-image: url('../images/meese3.jpg');
+    background-position: top;
+    background-size: 45rem;
+}
+
+.tri-three{
+    /* background-image: url('../images/discover.jpg'); */
+    background-image: url('../images/road2.jpg');
+    background-position: center;
+    background-size: 45rem;  
+}
+
+.tri-one h1, .tri-two h1, .tri-three h1{
+color: darkgoldenrod;
+background-color: rgba(255, 255, 255, .7);
+padding: 10px 20px;
+}
+
+@media screen and (max-width: 700px){
+
+    .cover{
+        height: 400px;
+    }
+
+    .cover h1{
+        font-size: 4vh;
+    }
+
+    .quote{
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .quote h1{
+        font-size: 1.5rem;
+        margin: 0px 10px 10px 10px;
+    }
+
+    .quote h2{
+        font-size: .8rem;
+        margin-bottom: 10px;
+    }
+
+    .quote p{
+        font-size: 16px;
+        padding: 10px 15px;
+        margin: 0px;
+    }
+
+   .tri-container{
+       flex-direction: column;
+   }
+
+   .tri-one, .tri-two, .tri-three{
+   width: 100%;
+   height: 300px;
+   margin-bottom: 0px;
+    }
+
+    .tri-one h1, .tri-two h1, .tri-three h1{
+        font-size: 1.5rem;
+    }
+    .tri-one{
+        background-position: center;
+    }
+
+    .tri-two{
+        background-position: bottom;
+    }
+
+}
+
+
+
+/* links */
+/* cool hover */
+
